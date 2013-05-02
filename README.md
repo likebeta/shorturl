@@ -1,0 +1,1 @@
+类似[ady.ly](http://adf.ly/)的短网址服务
