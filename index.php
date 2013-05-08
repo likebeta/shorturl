@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
 <head>
-<title>短网址</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="" />
-<link rel="stylesheet" type="text/css" href="assets/default.css" />
+	<title>短网址</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" type="text/css" href="assets/default.css" />
 </head>
 <body>
 <div id="header"></div>
@@ -20,5 +20,11 @@
 	</div>
 </div>
 <div id="footer"></div>
+<?php
+	require('config.inc.php');
+	require('shorturl.php');
+	print_r(shorturl::get_shorturl("http://www.google.com",""));
+	echo '<br />'.shorturl::get_srcurl("tr0iww");
+?>
 </body>
 </html>
