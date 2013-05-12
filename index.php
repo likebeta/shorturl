@@ -22,8 +22,8 @@
 <div id="footer"></div>
 <?php
 	require('config.inc.php');
-	require('shorturl.php');
-	print_r(shorturl::get_shorturl("http://www.google.com",""));
+	require('shorturl.class.php');
+	print_r(shorturl::get_shorturl("http://www.google.com"));
 	echo '<br />'.shorturl::get_srcurl("tr0iww");
 ?>
 </body>
