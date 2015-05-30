@@ -1,6 +1,6 @@
 ## 服务功能
 
-类似 [ady.ly](http://adf.ly/) 的短网址服务。 提供缩略和还原网址的api，可以自定义网址，注册后可以指定网址还原时的跳转行为。api分为GET和POST两种http请求方式，每种请求方式又分为两种操作(action)： 缩略(short)或还原(extend)
+类似 [ady.ly](http://adf.ly/?id=2688008) 的短网址服务。 提供缩略和还原网址的api，可以自定义网址，注册后可以指定网址还原时的跳转行为。api分为GET和POST两种http请求方式，每种请求方式又分为两种操作(action)： 缩略(short)或还原(extend)
 
 #### 缩略
 
